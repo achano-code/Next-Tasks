@@ -12,7 +12,6 @@ interface NavItemProps {
 
 const NavItem: React.FC<NavItemProps> = ({ label, link, icon }) => {
   const pathname = usePathname()
-  console.log(pathname)
   return (
     <Link href={link} className={`flex items-center gap-2 px-4 py-2 hover:bg-gray-700
     ${pathname === link ? 'bg-gray-600' : ''}`}>
