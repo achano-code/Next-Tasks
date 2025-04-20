@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { MdAddTask } from 'react-icons/md'
 import TaskCard from '../components/SideMenu/TaskCard/TaskCard'
 export default function MainPage() {
+  throw new Error('test error')
   return (
     <div className='text-gray-800 p-8 f-hull overflow-auto pb-24'>
       <header className='flex justify-between items-center'>
