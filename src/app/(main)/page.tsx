@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { MdAddTask } from 'react-icons/md'
-
+import TaskCard from '../components/SideMenu/TaskCard/TaskCard'
 export default function MainPage() {
   return (
     <div className='text-gray-800 p-8 f-hull overflow-auto pb-24'>
@@ -12,7 +12,7 @@ export default function MainPage() {
         </Link>
       </header>
       <div className='mt-8 flex flex-wrap gap-4'>
-        Task Card
+        <TaskCard />
       </div>
     </div>
   );
