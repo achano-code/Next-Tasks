@@ -1,5 +1,6 @@
 import React from 'react'
-import NewTaskForm from '../components/SideMenu/NewTaskForm/NewTaskForm'
+import NewTaskForm from '@/app/components/NewTaskForm/NewTaskForm'
+
 const NewTaskPage = () => {
   return (
     <div className='flex flex-col justify-center py-20'>
