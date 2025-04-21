@@ -6,8 +6,8 @@ interface TaskCardProps {
   task: TaskDocument;
 }
 
-const TaskCard: React.FC<TaskCardProps> = ({task}) => {
-  console.log(task._id)
+const TaskCard: React.FC<TaskCardProps> = ({ task }) => {
+
   return (
     <div className='w-64 h-52 p-4 bg-white rouded-md shadow-md flex flex-col justify-between'>
       <header>
