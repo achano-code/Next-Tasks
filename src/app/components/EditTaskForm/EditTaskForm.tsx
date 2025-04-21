@@ -43,8 +43,8 @@ const EditTaskForm = ({ task }: EditTaskFormProps) => {
             onChange={(e) => setDescription(e.target.value)} />
         </div>
         <div className='mt-6'>
-          <label htmlFor='duoDate' className='block text-sm font-medium'>期限</label>
-          <input type="date" id='duoDate' name='duoDate' min="2020-01-01" max="2025-12-31" required className='block mt-2 py-1.5 px-2 w-full rounded-md border-0 shadow-sm ring-1 ring-inset ring-gray-300'
+          <label htmlFor='dueDate' className='block text-sm font-medium'>期限</label>
+          <input type="date" id='dueDate' name='dueDate' min="2020-01-01" max="2025-12-31" required className='block mt-2 py-1.5 px-2 w-full rounded-md border-0 shadow-sm ring-1 ring-inset ring-gray-300'
             value={dueDate}
             onChange={(e) => setDueDate(e.target.value)}
           />
